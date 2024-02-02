@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efffde ;
+}
+.err{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+h1{
+    font-size: 200px;
+    color: #99C866;
+    position: absolute;
+    transform: translateY(-250px);
+    transition: all 700ms ease-in-out ;
+}
+img{
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+.er404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-150px);
+}
+h3{
+    font-size: 30px;
+    font-family:Helvetica;
+}
+p{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+button{
+    margin-top: 50px;
+    background-color: #99C866;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 700ms ease-in-out ;
+}
+button:hover{
+    background-color: #345d09;
+    transform: scale(1.05);
+    
+    
+}
+h1:hover{
+    color:#345d09;
+}
+img{
+    transform: scale(1);
+}
+img:hover{
+    transform: scale(1.5);
+}
